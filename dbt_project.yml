@@ -1,1 +1,12 @@
-
+version: "1"
+context:
+  active-host: "xq255.us1.dbt.com"
+  active-project: "70471823450480"
+projects:
+  - project-name: "Analytics"
+    project-id: "70471823450480"
+    account-name: "AMEX"
+    account-id: "70471823444939"
+    account-host: "xq255.us1.dbt.com"
+    token-name: "cloud-cli-296c"
+    token-value: "dbtu_0Vs6sQY6917HkLCzSws1L3D8SVlyq1_GGWvBEJCwdW276bs_KY"
