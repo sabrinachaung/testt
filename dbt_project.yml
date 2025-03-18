@@ -1,12 +1,56 @@
-version: "1"
-context:
-  active-host: "xq255.us1.dbt.com"
-  active-project: "70471823450480"
-projects:
-  - project-name: "Analytics"
-    project-id: "70471823450480"
-    account-name: "AMEX"
-    account-id: "70471823444939"
-    account-host: "xq255.us1.dbt.com"
-    token-name: "cloud-cli-296c"
-    token-value: "dbtu_0Vs6sQY6917HkLCzSws1L3D8SVlyq1_GGWvBEJCwdW276bs_KY"
+[name](/reference/project-configs/name): Analytics
+
+[config-version](/reference/project-configs/config-version): 2
+[version](/reference/project-configs/version): version
+
+[profile](/reference/project-configs/profile): profilename
+
+[model-paths](/reference/project-configs/model-paths): [directorypath]
+[seed-paths](/reference/project-configs/seed-paths): [directorypath]
+[test-paths](/reference/project-configs/test-paths): [directorypath]
+[analysis-paths](/reference/project-configs/analysis-paths): [directorypath]
+[macro-paths](/reference/project-configs/macro-paths): [directorypath]
+[snapshot-paths](/reference/project-configs/snapshot-paths): [directorypath]
+[docs-paths](/reference/project-configs/docs-paths): [directorypath]
+[asset-paths](/reference/project-configs/asset-paths): [directorypath]
+
+[packages-install-path](/reference/project-configs/packages-install-path): directorypath
+
+[clean-targets](/reference/project-configs/clean-targets): [directorypath]
+
+[require-dbt-version](/reference/project-configs/require-dbt-version): version-range | [version-range]
+
+[flags](/reference/global-configs/project-flags):
+  [<global-configs>](/reference/global-configs/project-flags)
+
+[dbt-cloud](/docs/cloud/cloud-cli-installation):
+  [project-id](/docs/cloud/configure-cloud-cli#configure-the-dbt-cloud-cli): 70471823450480
+
+metrics:
+  [<metric-configs>](/docs/build/metrics-overview)
+
+models:
+  [<model-configs>](/reference/model-configs)
+
+seeds:
+  [<seed-configs>](/reference/seed-configs)
+
+semantic-models:
+  [<semantic-model-configs>](/docs/build/semantic-models)
+
+saved-queries:
+  [<saved-queries-configs>](/docs/build/saved-queries)
+
+snapshots:
+  [<snapshot-configs>](/reference/snapshot-configs)
+
+sources:
+  [<source-configs>](source-configs)
+  
+tests:
+  [<test-configs>](/reference/data-test-configs)
+
+vars:
+  [<variables>](/docs/build/project-variables)
+
+[restrict-access](/docs/collaborate/govern/model-access): false
